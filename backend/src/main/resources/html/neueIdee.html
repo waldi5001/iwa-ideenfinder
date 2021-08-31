@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/neueIdee.css">
+    <title>Static Template</title>
+    <style>
+      body {
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="create" method="post">
+
+        <div class="Titel">
+          <div class="titelTitle">  
+            <label for="bezeichnung">Titel:</label></br>
+          </div>  
+            <input type="text" id="bezeichnung" name="bezeichnung"></br>
+        </div><br>
+
+        <div class="beschreibung">
+          <div class="beschreibungTitle">
+            <label for="beschreibung">Beschreibung:</label></br>
+          </div>
+            <textarea id="beschreibung" name="beschreibung" rows="3" cols="29"></textarea>  
+            <br>
+        </div><br>
+
+        <div class="Material">
+          <div class="materialTitle">Material:</div>
+          <input type="checkbox" id="papier" name="material" value="Papier">
+          <label for="Papier">Papier</label>
+          <input type="checkbox" id="stifte" name="material" value="Stiefte">
+          <label for="Stifte">Stifte</label>
+          <input type="checkbox" id="kleber" name="material" value="Kleber">
+          <label for="Kleber">Kleber</label>
+          <input type="checkbox" id="schere" name="material" value="Schere">
+          <label for="Schere">Schere</label>
+          <input type="checkbox" id="Lineal_Geodreieck" name="material" value="Lineal">
+          <label for="Lineal_Geodreieck">Lineal/Geodreieck</label>
+          <input type="checkbox" id="zahnstocher" name="material" value="Zahnstocher">
+          <label for="Zahnstocher">Zahnstocher</label>
+          <input type="checkbox" id="holz" name="material" value="Holz">
+          <label for="Holz">Holz</label>   
+          <input type="checkbox" id="klebeband" name="material" value="KLebeband">
+          <label for="Klebeband">Klebeband</label>
+          <input type="checkbox" id="blaetter" name="material" value="Blätter">
+          <label for="Blaetter">Blätter</label>
+          <input type="checkbox" id="kastanien" name="material" value="Kastanien">
+          <label for="Kastanien">Kastanien</label>
+          <input type="checkbox" id="wassermalfarben" name="material" value="Wassermalfarben">
+          <label for="Wassermalfarben">Wassermalfarben</label>
+          <input type="checkbox" id="kabel" name="material" value="Kabel">
+          <label for="Kabel">Kabel</label>
+          <input type="checkbox" id="seil_schnur" name="material" value="Seil/Schnur">
+          <label for="seil_schnur">Seil/Schnur</label><br>
+         <div class="eigenes-materialTitle">
+          <label for="eigenes-material">Eigenes Material:</label>
+          <input type="text" id="eigenes-material" name="material"></br><br>
+         </div>
+        </div>
+
+        <div class="kategorien">
+         <div class="kategorieTitle">
+          <label for="kategorien">Kategorie:</label>
+            
+             <select id="kategorien-dropdown" name="kategorien">
+              <option id="basteln" name="kategorien" value="Basteln">Basteln</option>
+              <option id="malen_zeichnen" name="kategorien" value="Malen/Zeichnen">Malen/Zeichnen</option>
+              <option id="spiel-und-spass" name="kategorien" value="Spiel und Spaß">Spiel und Spaß</option>
+              <option id="tanzen" name="kategorien"value="Tanzen">Tanzen</option>
+              <option id="naehen" name="kategorien"value="Nähen">Nähen</option>
+              <option id="sport" name="kategorien"value="Sport">Sport</option>
+              <option id="kochen" name="kategorien"value="Kochen">Kochen</option>
+              <option id="essen" name="kategorien"value="Essen">Essen</option>
+              <option id="lesen_Bücher" name="kategorien"value="Lesen/Bücher">Lesen/Bücher</option>        
+              <option id="schule" name="kategorien"value="Schule">Schule</option>
+              <option id="gaming" name="kategorien"value="Gaming">Gaming</option>
+              <option id="brettspiele" name="kategorien"value="Brettspiele">Brettspiele</option>
+              <option id="handwerkeln" name="kategorien"value="Handwerkeln">Handwerkeln</option>
+              <option id="musik" name="kategorien"value="Musik">Musik</option>
+              <option id="sonstiges" name="kategorien"value="Sonstiges">Sonstiges</option>
+             </select><br></br>
+        
+          <label for="kategorien">Eigene Kategorie:</label>
+          <input type="text" id="kategorien" name="kategorien" value=""><br></br>
+         </div>
+        </div><br>
+
+        <div class="absenden">
+          <input type="submit" value="Daten absenden" class="Daten">
+        </div>
+
+    </form>
+  </body>
+</html> 
+
