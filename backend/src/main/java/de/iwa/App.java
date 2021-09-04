@@ -50,6 +50,7 @@ public class App {
             }
         });
         service.speichern("Origami Schwan","eine schöne Beschreibung zum Origami Schwan");
+        service.speichern("Origami Schwan 2.0","Diese Schwan ist besser als der alte");
     }
 
     public static void main(String[] args) {

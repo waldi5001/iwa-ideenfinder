@@ -1,4 +1,6 @@
 .IdeenBox {
+  margin-top: 25px;
+  padding:25px;
   display: flex;
   flex-direction: row;
   background-color: burlywood;
@@ -17,22 +19,27 @@
 h3 {
   display: inline;
 }
+
 .TitelText {
   flex-direction: column;
 }
+
 .vorne {
   display: flex;
-  background-image: url("https://www.digitipps.ch/wp-content/uploads/2019/12/alles-unscharf-fotografieren-Spiegelung-im-Weiher.jpg");
+  background-image: url("bg_image.jpg");
   height: 200px;
   justify-content: center;
   align-items: center;
 }
+
 #more {
   display: none;
 }
+
 img {
   margin: 2%;
 }
+
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -78,6 +85,7 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -96,6 +104,7 @@ img {
   width: 500px;
   transition: width 5s ease-in-out;
 }
+
 .dropdownMeta {
   position: relative;
   display: inline-block;
@@ -133,5 +142,78 @@ img {
 .dropdown:hover .dropdown-content {
   display: inline;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.lupe {
+  padding-right: 1%;
+  padding-top: 0.65%;+
+}
+
+.suche {
+  box-shadow: burlywood;
+  border-radius: 0.5em;
+  font-size: 1.2em;
+  width: 500px;
+  font-size: 60;
+  transition: width 5s ease-in-out;
+  background-color: burlywood;
+  box-shadow: -5px 5px 10px grey;
+}
+
+.dropdownMeta {
+  position: relative;
+  display: inline-block;
+  margin-left: 3.25%;
+}
+
+.dropdown-contentMeta {
+  display: none;
+  position: absolute;
+  background-color: burlywood;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px burlywood;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdownMeta:hover .dropdown-contentMeta {
+  display: inline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: burlywood;
+  min-width: 160px;
+  box-shadow: 0px px 2px 0px burlywood;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #b5bf3c;
+}
+
+td{
+    width: 150px;
+}
+
 
 
